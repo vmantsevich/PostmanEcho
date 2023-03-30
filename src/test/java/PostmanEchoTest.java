@@ -16,7 +16,7 @@ public class PostmanEchoTest {
                 .post("/post")
 // Проверки
                 .then()
-                .statusCode(200)
+                .statusCode(401)
                 .body("data", equalTo("bulochka"))
         ;
 
